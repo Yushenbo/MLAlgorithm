@@ -65,7 +65,7 @@ def show_precision_recall(x, y, clf, y_train, y_pre):
     answer = clf.predict_proba(x)[:1]
 
     target_names = ['thin', 'fat']
-    print(classification_report(y, answer, target_names=target_names))
+    #print(classification_report(y, answer, target_names=target_names))
     print(answer)
     print(y)
 
